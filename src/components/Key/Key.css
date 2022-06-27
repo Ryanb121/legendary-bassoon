@@ -1,0 +1,11 @@
+.key{
+    background-color: pink;
+    display: block;
+    margin: 0;
+    border: 3px solid purple;
+    height: 400px;
+    width: 70px;
+    justify-content: left;
+    cursor: pointer;
+    
+}

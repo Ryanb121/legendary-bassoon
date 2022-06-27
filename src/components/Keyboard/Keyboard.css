@@ -1,0 +1,10 @@
+.keyboard{
+    background-color: green;
+    display: block;
+    margin: auto;
+    border: 3px solid blue;
+    height: 450px;
+    width: 900px;
+    justify-content: left;
+   
+}
