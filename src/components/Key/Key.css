@@ -1,11 +1,12 @@
-.key-white{
-    background-color: pink;
-    display: block;
-    margin: 0;
-    border: 3px solid purple;
-    height: 400px;
-    width: 70px;
-    justify-content: left;
-    cursor: pointer;
-    
+.key-white-c {
+  background-color: pink;
+  justify-content: left;
+  display: inline-block;
+  margin: 0;
+  outline: none;
+  border: 3px solid purple;
+  height: 400px;
+  width: 70px;
+  
+  
 }

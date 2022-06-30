@@ -1,8 +1,10 @@
 import "./Keyboard.css";
 import Key from "../Key/Key";
 
-const Keyboard = () => {
-    return ( <div className="keyboard">
+const Keyboard = (props) => {
+    
+    return ( <div className="keyboard" >
+        <Key/>
         <Key/>
     </div> );
 }
