@@ -40,7 +40,7 @@ const Key = () => {
 
   return (
     <div
-      className="key-white-c"
+      className="key-white"
       tabIndex="0"
       onKeyDown={playAudio}
       ref={soundInputRef}

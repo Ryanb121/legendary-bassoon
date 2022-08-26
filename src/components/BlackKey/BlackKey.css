@@ -1,5 +1,5 @@
-.key-white {
-  background-color: pink;
+.key-black {
+  background-color: rgb(10, 10, 10);
   justify-content: left;
   display: inline-block;
   margin: 0;
