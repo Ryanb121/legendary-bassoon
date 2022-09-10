@@ -1,12 +1,12 @@
 import { useEffect, useRef } from "react";
 import "./Key.css";
-import c3 from "../Sounds/c3.mp3";
-import d3 from "../Sounds/d3.mp3";
-import e3 from "../Sounds/e3.mp3";
-import f3 from "../Sounds/f3.mp3";
-import g3 from "../Sounds/g3.mp3";
-import a3 from "../Sounds/a3.mp3";
-import b3 from "../Sounds/b3.mp3";
+import c4 from "../Sounds/c4.mp3";
+import d4 from "../Sounds/d4.mp3";
+import e4 from "../Sounds/e4.mp3";
+import f4 from "../Sounds/f4.mp3";
+import g4 from "../Sounds/g4.mp3";
+import a4 from "../Sounds/a4.mp3";
+import b4 from "../Sounds/b4.mp3";
 
 const Key = () => {
   const soundInputRef = useRef();
@@ -46,25 +46,25 @@ const Key = () => {
       ref={soundInputRef}
     >
       <audio className="audio-element">
-        <source src={c3}></source>
+        <source src={c4}></source>
       </audio>
       <audio className="audio-element">
-        <source src={d3}></source>
+        <source src={d4}></source>
       </audio>
       <audio className="audio-element">
-        <source src={e3}></source>
+        <source src={e4}></source>
       </audio>
       <audio className="audio-element">
-        <source src={f3}></source>
+        <source src={f4}></source>
       </audio>
       <audio className="audio-element">
-        <source src={g3}></source>
+        <source src={g4}></source>
       </audio>
       <audio className="audio-element">
-        <source src={a3}></source>
+        <source src={a4}></source>
       </audio>
       <audio className="audio-element">
-        <source src={b3}></source>
+        <source src={b4}></source>
       </audio>
     </div>
   );

@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import "./BlackKey.css";
-import c5 from "../Sounds/c5.mp3";
-import d5 from "../Sounds/d5.mp3";
-import f5 from "../Sounds/f5.mp3";
-import g5 from "../Sounds/g5.mp3";
-import a5 from "../Sounds/a5.mp3";
+import c4S from "../Sounds/c-4.mp3";
+import d4S from "../Sounds/d-4.mp3";
+import f4S from "../Sounds/f-4.mp3";
+import g4S from "../Sounds/g-4.mp3";
+import a4S from "../Sounds/a-4.mp3";
 
 const BlackKey = () => {
   const soundInputRef = useRef();
@@ -38,19 +38,19 @@ const BlackKey = () => {
       ref={soundInputRef}
     >
       <audio className="audio-element">
-        <source src={c5}></source>
+        <source src={c4S}></source>
       </audio>
       <audio className="audio-element">
-        <source src={d5}></source>
+        <source src={d4S}></source>
       </audio>
       <audio className="audio-element">
-        <source src={f5}></source>
+        <source src={f4S}></source>
       </audio>
       <audio className="audio-element">
-        <source src={g5}></source>
+        <source src={g4S}></source>
       </audio>
       <audio className="audio-element">
-        <source src={a5}></source>
+        <source src={a4S}></source>
       </audio>
     </div>
   );
