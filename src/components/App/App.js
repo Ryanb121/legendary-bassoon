@@ -1,13 +1,12 @@
-
-import Keyboard from '../Keyboard/Keyboard';
+import Key from '../Key/Key';
 import './App.css';
 
 function App() {
   
   return (
     <div className="App">
-     <h1>ITS ALIVE</h1>
-     <Keyboard/>
+     <h1>miniPiano.js</h1>
+     <Key/>
     </div>
   );
 }
