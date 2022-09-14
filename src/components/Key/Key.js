@@ -64,7 +64,7 @@ const Key = () => {
     <div className="keyboard-div">
       {keyArray.map((notes, key) => {
         return (
-          <div
+          <button
             key={notes.id}
             tabIndex="0"
             onKeyDown={playAudio}
@@ -75,7 +75,7 @@ const Key = () => {
             <audio className="audio-element">
               {<source src={notes.note}></source>}
             </audio>
-          </div>
+          </button>
         );
       })}
     </div>
@@ -84,46 +84,46 @@ const Key = () => {
 
 export default Key;
 
-// <div
-//   className="key-white"
-//   tabIndex="0"
-//   onKeyDown={playAudio}
-//   ref={soundInputRef}
-// >
-//   <audio className="audio-element">
-//     <source src={c4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={d4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={e4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={f4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={g4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={a4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={b4}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={c4S}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={d4S}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={f4S}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={g4S}></source>
-//   </audio>
-//   <audio className="audio-element">
-//     <source src={a4S}></source>
-//   </audio>
-// </div>
+/* <div
+  className="key-white"
+  tabIndex="0"
+  onKeyDown={playAudio}
+  ref={soundInputRef}
+>
+  <audio className="audio-element">
+    <source src={c4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={d4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={e4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={f4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={g4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={a4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={b4}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={c4S}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={d4S}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={f4S}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={g4S}></source>
+  </audio>
+  <audio className="audio-element">
+    <source src={a4S}></source>
+  </audio>
+</div> */
