@@ -69,8 +69,9 @@ const Key = () => {
             tabIndex="0"
             onKeyDown={playAudio}
             ref={soundInputRef}
-            className={`key-${notes.color}`}
+            className={`key-${notes.color}-${notes.id}`}
           >
+            <p>{notes.keyTrigger}</p>
             <audio className="audio-element">
               {<source src={notes.note}></source>}
             </audio>
