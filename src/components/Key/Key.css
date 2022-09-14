@@ -1,6 +1,3 @@
-
-
-
 .keyboard-div {
   background-image: url("../../walnut.png");
   display: flex;
@@ -11,7 +8,6 @@
   height: 50vh;
   justify-content: center;
   padding-top: 3%;
-  
 }
 
 .key-white-0 {
@@ -22,10 +18,8 @@
   position: relative;
   border: 2px solid black;
   border-radius: 2%;
-  
+  outline: none;
 }
-
-
 
 .key-white-2 {
   background-color: ivory;
@@ -34,8 +28,8 @@
   height: 90%;
   position: relative;
   border: 2px solid black;
+  outline: none;
 }
-
 
 .key-white-4 {
   background-color: ivory;
@@ -44,6 +38,7 @@
   height: 90%;
   position: relative;
   border: 2px solid black;
+  outline: none;
 }
 
 .key-white-5 {
@@ -53,6 +48,7 @@
   height: 90%;
   position: relative;
   border: 2px solid black;
+  outline: none;
 }
 
 .key-white-7 {
@@ -62,6 +58,7 @@
   height: 90%;
   position: relative;
   border: 2px solid black;
+  outline: none;
 }
 
 .key-white-9 {
@@ -71,6 +68,7 @@
   height: 90%;
   position: relative;
   border: 2px solid black;
+  outline: none;
 }
 
 .key-white-11 {
@@ -94,11 +92,11 @@
   z-index: 1;
   left: 21%;
   position: absolute;
+  outline: none;
 }
 
-.key-black-1 > p  {
+.key-black-1 > p {
   color: white;
-  
 }
 
 .key-black-3 {
@@ -109,10 +107,10 @@
   z-index: 1;
   position: absolute;
   left: 31%;
+  outline: none;
 }
-.key-black-3 > p  {
+.key-black-3 > p {
   color: white;
-  
 }
 
 .key-black-6 {
@@ -123,10 +121,10 @@
   z-index: 1;
   position: absolute;
   left: 51%;
+  outline: none;
 }
-.key-black-6 > p  {
+.key-black-6 > p {
   color: white;
-  
 }
 
 .key-black-8 {
@@ -137,10 +135,10 @@
   z-index: 1;
   position: absolute;
   left: 61%;
+  outline: none;
 }
-.key-black-8 > p  {
+.key-black-8 > p {
   color: white;
-  
 }
 
 .key-black-10 {
@@ -151,19 +149,18 @@
   z-index: 1;
   position: absolute;
   left: 71%;
+  outline: none;
 }
-.key-black-10 > p  {
+.key-black-10 > p {
   color: white;
-  
 }
 
-
-p{
- width: 20px;
- z-index: 4;
- position: absolute;
- bottom: 1%;
- left: 36%;
- font-size: 1em;
- 
+p {
+  width: 20px;
+  z-index: 4;
+  position: absolute;
+  bottom: 1%;
+  left: 36%;
+  font-size: 1em;
+  pointer-events: none;
 }
