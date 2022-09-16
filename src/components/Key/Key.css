@@ -17,7 +17,6 @@
   height: 90%;
   position: relative;
   border: 2px solid black;
-  border-radius: 2%;
   outline: none;
 }
 
@@ -161,6 +160,12 @@ p {
   position: absolute;
   bottom: 1%;
   left: 36%;
-  font-size: 1em;
+  font-size: 1rem;
   pointer-events: none;
+}
+
+@media screen and (max-width: 900px) {
+  p {
+    display: none;
+  }
 }

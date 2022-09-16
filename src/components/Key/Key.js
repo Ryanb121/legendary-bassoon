@@ -71,6 +71,7 @@ const Key = () => {
       {keyArray.map((notes, key) => {
         return (
           <button
+            aria-label={`piano-key-${notes.keyName}`}
             key={notes.id}
             name={notes.id}
             tabIndex="0"
