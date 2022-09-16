@@ -1,0 +1,171 @@
+.keyboard-div {
+  background-image: url("../../walnut.png");
+  display: flex;
+  position: absolute;
+  left: 10%;
+  margin: 3% 10% 10% 10%;
+  width: 60vw;
+  height: 50vh;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.key-white-0 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+.key-white-2 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+.key-white-4 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+.key-white-5 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+.key-white-7 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+.key-white-9 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+.key-white-11 {
+  background-color: ivory;
+  flex-direction: row;
+  width: 6vw;
+  height: 90%;
+  position: relative;
+  border: 2px solid black;
+  outline: none;
+}
+
+/*
+--BLACK KEYS--
+*/
+
+.key-black-1 {
+  background-color: black;
+  width: 4.5vw;
+  height: 50%;
+  z-index: 1;
+  left: 21%;
+  position: absolute;
+  outline: none;
+}
+
+.key-black-1 > p {
+  color: white;
+}
+
+.key-black-3 {
+  background-color: black;
+  flex-direction: row;
+  width: 4.5vw;
+  height: 50%;
+  z-index: 1;
+  position: absolute;
+  left: 31%;
+  outline: none;
+}
+.key-black-3 > p {
+  color: white;
+}
+
+.key-black-6 {
+  background-color: black;
+  flex-direction: row;
+  width: 4.5vw;
+  height: 50%;
+  z-index: 1;
+  position: absolute;
+  left: 51%;
+  outline: none;
+}
+.key-black-6 > p {
+  color: white;
+}
+
+.key-black-8 {
+  background-color: black;
+  flex-direction: row;
+  width: 4.5vw;
+  height: 50%;
+  z-index: 1;
+  position: absolute;
+  left: 61%;
+  outline: none;
+}
+.key-black-8 > p {
+  color: white;
+}
+
+.key-black-10 {
+  background: black;
+  flex-direction: row;
+  width: 4.5vw;
+  height: 50%;
+  z-index: 1;
+  position: absolute;
+  left: 71%;
+  outline: none;
+}
+.key-black-10 > p {
+  color: white;
+}
+
+p {
+  width: 20px;
+  z-index: 4;
+  position: absolute;
+  bottom: 1%;
+  left: 36%;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 900px) {
+  p {
+    display: none;
+  }
+}
